@@ -13,7 +13,11 @@ console.log(data, data.length);
 await Deno.writeFile("./test.bin", data);
 ```
 
-## id
+## reference
+
+- [Manuke Station : T88Format](https://quagma.sakura.ne.jp/manuke/t88format.html)
+
+### id
 
 ```
 0 0 ; end
