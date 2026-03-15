@@ -1,10 +1,6 @@
 # T88
 
-T88フォーマット用のデコーダーをJavaScript/ESモジュールで実装しました。
-
-## 機能
-
-- T88フォーマットのデコード
+T88フォーマットのデコーダーを JavaScript/ES モジュールで実装しました。
 
 ## 使い方
 
@@ -21,7 +17,7 @@ await Deno.writeFile("./test.bin", data);
 
 - [Manuke Station : T88Format](https://quagma.sakura.ne.jp/manuke/t88format.html)
 
-### id
+### ID
 
 ```
 0 0 ; end
