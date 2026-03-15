@@ -1,8 +1,12 @@
 # T88
 
-T88 format decoder in JavaScript/ESmodule
+T88フォーマット用のデコーダーをJavaScript/ESモジュールで実装しました。
 
-## Usage
+## 機能
+
+- T88フォーマットのデコード
+
+## 使い方
 
 ```js
 import { T88 } from "https://code4fukui.github.io/T88/T88.js";
@@ -13,11 +17,11 @@ console.log(data, data.length);
 await Deno.writeFile("./test.bin", data);
 ```
 
-## Reference
+## 参考
 
 - [Manuke Station : T88Format](https://quagma.sakura.ne.jp/manuke/t88format.html)
 
-### ID
+### id
 
 ```
 0 0 ; end
@@ -28,6 +32,6 @@ await Deno.writeFile("./test.bin", data);
 103 8 ; mark
 ```
 
-## License
+## ライセンス
 
 MIT License
