@@ -2,7 +2,7 @@
 
 > 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-T88 format decoder in JavaScript/ESmodule
+T88 format decoder in JavaScript/ESModule
 
 ## Usage
 
